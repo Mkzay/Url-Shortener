@@ -8,7 +8,7 @@ export default function Shortener() {
             type="text"
             placeholder="Shorten a link here"
           />
-          <button className="bg-Cyan p-3 w-full text-white font-bold rounded-xl md:w-3/12">
+          <button className="bg-Cyan p-3 w-full text-white font-bold rounded-xl md:w-3/12 hover:transition-color hover:duration-500 hover:ease-in hover:brightness-200">
             Shorten it!
           </button>
         </form>

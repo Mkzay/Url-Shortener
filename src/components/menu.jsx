@@ -10,21 +10,21 @@ export default function Menu({ isMenuOpen }) {
     >
       <ul className="flex items-center justify-center flex-col gap-5 text-white font-bold border-b border-GrayishViolet pb-7 w-10/12 cursor-pointer md:text-GrayishViolet md:w-full md:border-0 md:flex-row">
         <li>
-          <a>Features</a>
+          <a className="hover:text-black">Features</a>
         </li>
         <li>
-          <a>Pricing</a>
+          <a className="hover:text-black">Pricing</a>
         </li>
         <li>
-          <a>Resources</a>
+          <a className="hover:text-black">Resources</a>
         </li>
       </ul>
       <ul className="flex items-center justify-center flex-col gap-5 text-white font-bold w-full cursor-pointer md:-mt-[26px] md:text-GrayishViolet md:flex-row lg:-mt-5">
         <li>
-          <a>Login</a>
+          <a className="hover:text-black">Login</a>
         </li>
         <li>
-          <a className="bg-Cyan rounded-3xl py-3 px-20 md:text-white md:px-8">
+          <a className="bg-Cyan rounded-3xl py-3 px-20 md:text-white md:px-8 hover:transition-color hover:duration-500 hover:ease-in hover:brightness-200">
             Sign Up
           </a>
         </li>

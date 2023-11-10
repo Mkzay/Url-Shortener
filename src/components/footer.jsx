@@ -5,7 +5,7 @@ export default function Footer() {
         <h1 className="text-white text-2xl font-bold md:text-3xl">
           Boost your links today
         </h1>
-        <button className="bg-Cyan rounded-3xl p-3 w-7/12 text-white font-bold md:w-3/12 lg:w-2/12">
+        <button className="bg-Cyan rounded-3xl p-3 w-7/12 text-white font-bold md:w-3/12 lg:w-2/12 hover:transition-color hover:duration-500 hover:ease-in hover:brightness-200">
           Get Started
         </button>
       </div>
@@ -16,50 +16,48 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-10 text-white md:flex-row md:gap-14 lg:gap-20">
           <ul className="flex items-center flex-col gap-3 md:items-start">
+            <li className="font-bold">Features</li>
             <li>
-              <a className="font-bold">Features</a>
+              <a className="text-GrayishViolet hover:text-Cyan">
+                Link Shortening
+              </a>
             </li>
             <li>
-              <a className="text-GrayishViolet">Link Shortening</a>
+              <a className="text-GrayishViolet hover:text-Cyan">
+                Branded Links
+              </a>
             </li>
             <li>
-              <a className="text-GrayishViolet">Branded Links</a>
-            </li>
-            <li>
-              <a className="text-GrayishViolet">Analytics</a>
-            </li>
-          </ul>
-
-          <ul className="flex items-center flex-col gap-3 md:items-start">
-            <li>
-              <a className="font-bold">Resources</a>
-            </li>
-            <li>
-              <a className="text-GrayishViolet">Blogs</a>
-            </li>
-            <li>
-              <a className="text-GrayishViolet">Developers</a>
-            </li>
-            <li>
-              <a className="text-GrayishViolet">Support</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Analytics</a>
             </li>
           </ul>
 
           <ul className="flex items-center flex-col gap-3 md:items-start">
+            <li className="font-bold">Resources</li>
             <li>
-              <a className="font-bold">Company</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Blogs</a>
             </li>
             <li>
-              <a className="text-GrayishViolet">About</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Developers</a>
             </li>
             <li>
-              <a className="text-GrayishViolet">Our Team</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Support</a>
+            </li>
+          </ul>
+
+          <ul className="flex items-center flex-col gap-3 md:items-start">
+            <li className="font-bold">Company</li>
+            <li>
+              <a className="text-GrayishViolet hover:text-Cyan">About</a>
             </li>
             <li>
-              <a className="text-GrayishViolet">Career</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Our Team</a>
             </li>
             <li>
-              <a className="text-GrayishViolet">Contact</a>
+              <a className="text-GrayishViolet hover:text-Cyan">Career</a>
+            </li>
+            <li>
+              <a className="text-GrayishViolet hover:text-Cyan">Contact</a>
             </li>
           </ul>
           <div className="flex items-center justify-center gap-7 md:items-start">

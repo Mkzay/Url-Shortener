@@ -38,7 +38,7 @@ export default function Head() {
             Build your brand&apos;s recognition and get detailed insights on how
             your links are performing.
           </p>
-          <button className="bg-Cyan rounded-3xl p-3 w-7/12 text-white font-bold">
+          <button className="bg-Cyan rounded-3xl p-3 w-7/12 text-white font-bold hover:transition-color hover:duration-500 hover:ease-in hover:brightness-200">
             Get Started
           </button>
         </div>
